@@ -20,9 +20,9 @@ import org.springframework.context.annotation.Bean;
  * @author Max Grabenhorst
  */
 @SpringBootApplication
-public class Application {
+public class MessengerBotApplication {
 
-    private static final Logger logger = LoggerFactory.getLogger(Application.class);
+    private static final Logger logger = LoggerFactory.getLogger(MessengerBotApplication.class);
 
     /**
      * Initializes the {@code MessengerSendClient}.
@@ -36,6 +36,6 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(MessengerBotApplication.class, args);
     }
 }
